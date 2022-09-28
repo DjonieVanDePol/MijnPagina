@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" lang="nl">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Djonie van de Pol</title>
+  <meta name="description" content="Op deze pagina kun je contact leggen met Djonie van de Pol.">
+  <meta name="keywords" content="Djonie, contact">
+    <link rel="stylesheet" type="text/css" href="stijl/stijl.css">
+    <!-- Bootstrap-CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <nav id="nav-sm" class="navbar navbar-expand-sm bg-light">
+      <div class="container-fluid">
+        <h1 id="mp_lg" class="navbar-brand float-md-start mb-0">Mijn pagina</h1>
+      <div id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="overmij.html">Over mij</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+  </header>
+  <div class="container">
+  <div class="row">
+  <div id="contact" class="col-sm">
+    <h3>Contacteer mij</h3>
+      <p>
+        Wil je meer over mij weten? Vul dan onderstaand formulier in.
+      </p>
+      <br>
+    <form action="https://formspree.io/f/mqkjqooo" method="post">
+      <div class="row mb-3">
+        <label for="naam" class="col-sm-2 col-form-label">Naam:</label>
+      <div class="col-sm-10">
+        <input type="text" name="naam" class="form-control" id="f_naam" maxlength="132" required>
+      </div>
+      </div>
+      <div class="row mb-3">
+        <label for="e-mail" class="col-sm-2 col-form-label">E-mail:</label>
+      <div class="col-sm-10">
+        <input type="email" name="e-mail" class="form-control" id="f_email" maxlength="132" required>
+      </div>
+      </div>
+      <div class="row mb-3">
+        <p class="col-sm-2 col-form-label">Bericht:</p>
+      <div class="col-sm-10">
+        <textarea name="bericht" maxlength="1000" id="f_bericht" required></textarea><br><br>
+      </div>
+        <button id="f_verzend" type="submit" class="btn btn-light">Verzend</button>
+      </div>
+    </form>
+  </div>
+  </div>
+  </div>
+  <footer>
+    <p id="footer">
+      Deze pagina is in september 2022 door Djonie van de Pol - Groenveld gemaakt.
+    </p>
+  </footer>
+  <!-- Bootstrap-JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!-- Eisen overmij.html:
+V body bevat container die niet 100% is totdat schermbreedte 576px
+V contactformulier met velden naam, e-mail en bericht en verzendknop
+-->

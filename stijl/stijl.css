@@ -1,0 +1,40 @@
+@media only screen and (max-width: 767px) {
+h1#mp_lg {
+  display: none;
+}
+}
+
+#welkom, #overmij, #contact {
+  padding: 25px;
+}
+
+h3 {
+  color: #CC6600
+}
+
+textarea {
+  width: inherit;
+  height: 150px;
+  border-color: #CED4DA;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+footer {
+  height: 200px;
+  background-color: #f8f9fa;
+  text-align: center;
+  font-family: cursive;
+  font-size: small;
+  padding-top: 6em;
+}
+
+img {
+  padding-top: 25px;
+}
+
+#f_verzend {
+  width: 125px;
+  margin: auto;
+}
